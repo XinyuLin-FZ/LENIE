@@ -65,6 +65,7 @@ LENIE/
 ## Citation
 If you find this work helpful, please cite:
 
+```text
 @article{LIN2025114521,
 title = {Node importance estimation leveraging LLMs for semantic augmentation in knowledge graphs},
 journal = {Knowledge-Based Systems},
@@ -77,3 +78,4 @@ url = {https://www.sciencedirect.com/science/article/pii/S0950705125015606},
 author = {Xinyu Lin and Tianyu Zhang and Chengbin Hou and Jinbao Wang and Jianye Xue and Hairong Lv},
 keywords = {Node importance estimation, Large language models, Knowledge graphs, Semantic augmentation, LLMs}
 }
+```
