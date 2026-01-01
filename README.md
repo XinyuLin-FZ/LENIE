@@ -10,8 +10,7 @@ LENIE enhances node semantic representations in Knowledge Graphs (KGs) using Lar
 
 ## Introduction
 
-Node Importance Estimation (NIE) aims to quantify the importance of nodes in a graph and plays a key role in many real-world applications.  
-Existing NIE methods that utilize semantic information from KGs are often limited by **insufficient, missing, or inaccurate node descriptions**.
+Node Importance Estimation (NIE) aims to quantify the importance of nodes in a graph and plays a key role in many real-world applications. Existing NIE methods that utilize semantic information from KGs are often limited by **insufficient, missing, or inaccurate node descriptions**.
 
 To address this issue, **LENIE** leverages LLMs as semantic augmenters. By integrating KG-derived triplets and original node descriptions into node-specific adaptive prompts, LENIE generates richer and more accurate augmented descriptions for nodes. These descriptions are then encoded as node embeddings to initialize downstream NIE models.
 
@@ -40,7 +39,7 @@ LENIE is model-agnostic and can be applied to various existing NIE models.
 ---
 
 ## Repository Structure
-
+```text
 LENIE/
 ├── data/
 │   ├── raw/                  # Original knowledge graph data
@@ -52,7 +51,7 @@ LENIE/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## How to use
