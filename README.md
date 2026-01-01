@@ -41,7 +41,6 @@ LENIE is model-agnostic and can be applied to various existing NIE models.
 
 ## Repository Structure
 
-```text
 LENIE/
 ├── data/
 │   ├── raw/                  # Original knowledge graph data
@@ -54,11 +53,15 @@ LENIE/
 ├── requirements.txt
 └── README.md
 
+---
+
 ## How to use
 1. xxx_data_preprocess.py
 2. llm_combine.py
 3. xxx_bert_embedding.py
 4. The semantically augmented embeddings from the previous steps are fed into the downstream NIE models for node embedding initialization.
+
+---
 
 ## Citation
 If you find this work helpful, please cite:
