@@ -16,6 +16,8 @@ To address this issue, **LENIE** leverages LLMs as semantic augmenters. By integ
 
 To the best of our knowledge, this work is the **first attempt to incorporate LLMs into the NIE task**.
 
+Note: This repository contains the source code and datasets for the paper, with the downstream NIE models used in the paper available in their respective original repositories. 
+
 ---
 
 ## Method Overview
